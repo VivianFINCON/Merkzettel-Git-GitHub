@@ -40,6 +40,7 @@ in der Kommandozeile an. Dir wird nun angezeigt, welce Dateien geändert wurden 
 2. Gebe deinen Username und Passwort von GitHub ein und deine Änderungen sollten nun online sein.
 
 ##Tipps und Tricks
+
 Einige Kommandos können die helfen Änderungen und Fehler besser nachvollziehen zu können.
 1. über `git add .` stagest du alle Dateien in deinem Ordner für den Commit, d.h. bereiest sie dafür vor.
 2. Manchmal möchtest du vielleicht einige Dateien in deinem Verzeichnis bewusst nicht commiten. Für diese legst du einen gitignore Ordner an. 
