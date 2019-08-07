@@ -19,14 +19,14 @@ Kleine Aufgaben und Beschreibungen dazu, wie man ein repositiry erstellt, bearbe
 2. Bearbeite die README.md in dem du die Datei auf IntelliJ öffnest.
 3. Speichere deine Änderungen.
 
-Nun musst du die Änderungen wieder auf GitHub hochladen. um das tun zu können, musst du die Datei aber ersteinmal für den Push vorbereiten.
+Nun musst du die Änderungen wieder auf GitHub hochladen. Um das tun zu können, musst du die Datei aber ersteinmal für den Push vorbereiten.
 
 ## Commiten und Mergen
 **Aufgabe 3:** Commite und Merge ggf. deine Änderungen.
 
 **Lösung:** 
 1. Bevor du deine Änderungen commitest, schaust du dir am besten nochmal den Status deines aktuellen Repositorys an. Gebe dazu `git status`
-in der Kommandozeile an. Dir wird nun angezeigt, welce Datein geändert wurden und welche Änderungen noch nicht erfasst sind.
+in der Kommandozeile an. Dir wird nun angezeigt, welce Dateien geändert wurden und welche Änderungen noch nicht erfasst sind.
 2. führe nun einen Commit durch. Dies geschieht über den Befehl `git commit (ggf. Name der Datei) -m "Kommentar zur Änderung"`.
 3. Führe nun einen Pull durch, indem du `git pull` eingibst. Falls es einen Konflikt mit anderen Bearbeitungen gibt, die auch hochgeladen werden sollen, wird das nun angezeigt.
 4. im Konfliktfall, wirst du an dieser Stelle mergen müssen. 
