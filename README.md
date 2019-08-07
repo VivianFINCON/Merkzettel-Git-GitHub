@@ -1,4 +1,4 @@
-# Merkzettel-Git-GitHub
+# Merkzettel Git GitHub
 Kleine Aufgaben und Beschreibungen dazu, wie man ein repositiry erstellt, bearbeitet und aktualisiert 
 
 ## Repository erstellen
@@ -38,3 +38,17 @@ in der Kommandozeile an. Dir wird nun angezeigt, welce Dateien geändert wurden 
 **Lösung:**
 1. mit dem Kommando `git push` lädst du deine Änderungen wieder hoch. 
 2. Gebe deinen Username und Passwort von GitHub ein und deine Änderungen sollten nun online sein.
+
+##Tipps und Tricks
+Einige Kommandos können die helfen Änderungen und Fehler besser nachvollziehen zu können.
+1. über `git add .` stagest du alle Dateien in deinem Ordner für den Commit, d.h. bereiest sie dafür vor.
+2. Manchmal möchtest du vielleicht einige Dateien in deinem Verzeichnis bewusst nicht commiten. Für diese legst du einen gitignore Ordner an. 
+Gebe dazu `.gitignore` ein. Über `Foldername/` kannst du dann einzelne Ordner hinzufüen, die du ignorieren möchtest.
+3. über `git remote -v` kannst du eine Liste mit allen verbundenen Remote-repositorys anzeigen lassen.
+3. Falls du dein Repository lokal anlegen möchtest, kannst du dies über den `git init` Befehl direkt in deinem Zielverzeichnis tun.
+4. Um direkt in dein gewünschtes Verzeichnis zu springen, gebe `cd Ordnername` ein. Indem du nur die ersten Buchstaben und dann Tab eingibst, werden dir diese direkt vorgeschlagen.
+6. Um die wichtigsten Begriffe nocheinmal nachschlagen zu können, gehe auf [git cheat sheet](https://zipproth.de/cheat-sheets/git/ "cheat sheet") Seiten. 
+7. Du kannst dir anzeigen lassen, was für Änderungen du vorgenommen hast, indem du `git diff` aufrufst.
+
+
+**Viel Spaß und viel Erfolg beim Umgang mit Git!**
