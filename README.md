@@ -39,7 +39,7 @@ in der Kommandozeile an. Dir wird nun angezeigt, welche Dateien geändert wurden
 1. Mit dem Kommando `git push` lädst du deine Änderungen wieder hoch. 
 2. Gebe deinen Username und Passwort von GitHub ein und deine Änderungen sollten nun online sein.
 
-## Mit anderen arbeiten
+## Mit Anderen arbeiten
 **Aufgabe:** Lade auch andere zu deinem aktuellen Projekt ein.
 
 **Lösung:** 
@@ -47,7 +47,7 @@ in der Kommandozeile an. Dir wird nun angezeigt, welche Dateien geändert wurden
 2. Gehe auf Settings.
 3. Unter dem Reiter "Collaborators" kannst du über den GitHub-Username oder die E-Mailadresse weitere Contributor hinzufügen. 
 
-Anmerkung: Die Person erhält dann per Mail eine Einladung zu deinem Projekt, die sie dann annehmen muss, um auch etwas beitragen zu können. 
+**Anmerkung:** Die Person erhält dann per Mail eine Einladung zu deinem Projekt, die sie dann annehmen muss, um auch etwas beitragen zu können. 
 ## Tipps und Tricks
 Einige Kommandos können dir helfen Änderungen und Fehler besser nachvollziehen zu können.
 1. Über `git add .` stagest du alle Dateien in deinem Ordner für den Commit, d.h. bereitest sie dafür vor.
